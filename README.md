@@ -59,6 +59,5 @@ outputs/       Results and visualizations
 
 ### Project Context
 
-FSC / SUPARCO Internship
-Department of Software Engineering
-FAST-National University of Computer and Emerging Sciences, Lahore
+FAST School of Computing
+
