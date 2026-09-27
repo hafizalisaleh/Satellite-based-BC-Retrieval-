@@ -7,11 +7,15 @@ venv/
 # Environment variables
 .env
 
-# Datasets
+# Raw datasets
 data/raw/*
 !data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
+
+# Processed datasets
+# Keep processed CSVs in Git for reproducibility
+data/processed/*.parquet
+data/processed/*.pkl
+data/processed/*.joblib
 
 # Trained models
 models/*
