@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Raw datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed datasets
+# Keep processed CSVs in Git for reproducibility
+data/processed/*.parquet
+data/processed/*.pkl
+data/processed/*.joblib
+
+# Trained models
+models/*
+!models/.gitkeep
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
