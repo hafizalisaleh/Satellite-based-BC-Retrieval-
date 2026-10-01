@@ -28,6 +28,8 @@ models/*
 # Generated outputs
 outputs/*
 !outputs/.gitkeep
+!outputs/*.png
+!outputs/*.csv
 
 # Jupyter
 .ipynb_checkpoints/
