@@ -17,17 +17,6 @@ data/processed/*.parquet
 data/processed/*.pkl
 data/processed/*.joblib
 
-# Trained models
-models/*
-!models/.gitkeep
-*.pkl
-*.joblib
-*.pt
-*.pth
-
-# Generated outputs
-outputs/*
-!outputs/.gitkeep
 
 # Jupyter
 .ipynb_checkpoints/

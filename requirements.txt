@@ -1,0 +1,23 @@
+# Satellite-Based Black Carbon Retrieval - Requirements
+# Python 3.10+ compatible
+
+# Core Scientific Computing & Data Processing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Geospatial, NetCDF & HDF5 Handling
+h5py>=3.8.0
+netCDF4>=1.6.0
+xarray>=2023.1.0
+
+# Machine Learning & Modeling
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+joblib>=1.3.0
+
+# Geospatial Visualization & Plotting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
