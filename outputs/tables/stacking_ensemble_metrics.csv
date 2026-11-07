@@ -1,0 +1,2 @@
+,R2,RMSE,NRMSE_%,MAE,Bias,Pearson_r,N_samples
+Stacking Ensemble (LGB+XGB+ET),0.9221,3.0424,23.61,1.8418,-0.0683,0.9603,799
